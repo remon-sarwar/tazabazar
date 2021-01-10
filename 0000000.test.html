@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>e-commarse</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/plugin/css/bootstrap.min.css">
+
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="assets/plugin/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugin/css/owl.theme.default.min.css">
+
+
+    <!-- Font awesome CSS -->
+    <link rel="stylesheet" href="assets/plugin/css/owl.theme.default.min.css">
+
+
+    <!-- template CSS -->
+    <link rel="stylesheet" href="assets/plugin/css/style.css">
+    <style>
+        .navbar .dropdown-menu div[class*="col"] {
+            margin-bottom: 1rem
+        }
+
+        .navbar .dropdown-menu {
+            border: none;
+            background-color: rgb(0, 115, 168) !important;
+            margin-top: 8px
+        }
+
+        .navbar {
+            padding-top: 0px;
+            padding-bottom: 0px
+        }
+
+        .navbar .nav-item {
+            padding: .5rem .5rem;
+            margin: 0 .25rem
+        }
+
+        .navbar .dropdown {
+            position: static
+        }
+
+        .navbar .dropdown-menu {
+            width: 100%;
+            left: 0;
+            right: 0;
+            top: 45px
+        }
+
+        .navbar .dropdown:hover .dropdown-menu,
+        .navbar .dropdown .dropdown-menu:hover {
+            display: block !important
+        }
+
+        .navbar .dropdown-menu {
+            border: 1px solid rgba(0, 0, 0, .15);
+            background-color: #fff
+        }
+
+        a.i {
+            margin-top: -20px;
+            font-weight: 400;
+            color: white
+        }
+
+        a.catogary {
+            margin-left: -20px;
+            color: white
+        }
+
+        button.srch {
+            padding: 0px
+        }
+
+        @media only screen and (max-width: 1024px) and (min-width: 768px) {
+            input.srch {
+                padding: 0px;
+                width: 100%
+            }
+        }
+
+        a.nav-link.active {
+            font-weight: 700;
+            background-color: #6B5B95;
+            color: white
+        }
+
+        a.navbar-brand {
+            color: white
+        }
+
+        span.navbar-toggler.icon {
+            color: black
+        }
+    </style>
+
+
+</head>
+<body>
+
+<header class="container">
+    <!--Navigation Var-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-info"> <a class="navbar-brand" href="#">Home</a>
+        <!--Toggle Collapse Button-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!--Division for navbar-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <!--UL for links-->
+            <ul class="navbar-nav mr-auto">
+                <!-- Catagory 1-->
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle catogary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <strong> Fashion </strong> </a>
+                    <!--Div for catogary 1-->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="container">
+                            <div class="row">
+                                <!--Row 1-->
+                                <div class="col-md-3">
+                                    <!--Column 1-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">TOPS</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Shirts</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Tunics</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Tops</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Vests</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 2-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">DRESSES</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Casual</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Evening</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Designer</a> </li>
+                                        <li class="nav-item"> <a class="nav-link active" href="#">SHOES</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Flat shoes</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Sandals</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Boots</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 3-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">JEWELRY</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Bracelets</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Earings</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Nosepin</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Necklace</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Rings</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Lockets</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 4-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">TRENDING</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Crafted Kurti</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Shorts</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Cosmetics</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Custumized Shoes</a> </li>
+                                        <li class="nav-item"> <a class="nav-link active" href="#">JEANS</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Slim Fit</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Low Waist</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li> <!-- Catagory 2-->
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle catogary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <strong> Electronics </strong> </a>
+                    <!--Div for catogary 2-->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="container">
+                            <div class="row">
+                                <!--Row 1-->
+                                <div class="col-md-3">
+                                    <!--Column 1-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">MOBILE</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Sony</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Samsung</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Apple</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Xiaomi</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Lenevo</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 2-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">KITCHEN</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Electric Heater</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Toaster</a> </li>
+                                        <li class="nav-item"> <a class="nav-link active" href="#">DAILY USE</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Water Heater</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Induction Cooker</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 3-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">COMPUTERS & ACCESSORIES</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Laptops</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Hard Drives</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Pen Drives</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Mouse & Keyboards</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li> <!-- Catagory 3-->
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle catogary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <strong> Furniture </strong> </a>
+                    <!--Div for catogary 3-->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="container">
+                            <div class="row">
+                                <!--Row 1-->
+                                <div class="col-md-3">
+                                    <!--Column 1-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">Object 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 3</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 2-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">Object 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 3</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 3-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">Object 3</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 3</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 4-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">Object 4</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 3</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li> <!-- Catagory 4-->
+                <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle catogary" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <strong>Sports & Book</strong> </a>
+                    <!--Div for catogary 4-->
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <div class="container">
+                            <div class="row">
+                                <!--Row 1-->
+                                <div class="col-md-3">
+                                    <!--Column 1-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">Object 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 3</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 2-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">Object 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 3</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 3-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">Object 3</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 3</a> </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-3">
+                                    <!--Column 4-->
+                                    <ul class="nav flex-column">
+                                        <li class="nav-item"> <a class="nav-link active" href="#">Object 4</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 1</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 2</a> </li>
+                                        <li class="nav-item"> <a class="nav-link i" href="#">Item 3</a> </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <!--Search-->
+            <form class="form-inline"> <input class="form-control srch" type="search" placeholder="&#xF002; Search" style="font-family:Arial, FontAwesome" aria-label="Search"> </form>
+
+        </div>
+    </nav>
+
+
+
+
+</header>
+
+<section>
+
+
+</section>
+
+<footer>
+    <div class="input-group">
+        <style>
+            .input-group-btn{
+                float: left;
+            }
+            .input-group{
+                width: 100%;
+            }
+            .input-group .btn{
+                border:1px solid #ced4da;
+            }
+            .input-group .input-group-btn .dropdown-menu{
+                /*float: right;*/
+
+            }
+            .input-group input{
+                width: 50%;
+            }
+            .input-group-btn:hover .dropdown-menu{
+                display: block;
+            }
+            #all_category{
+                border: 1px solid #ced4da;
+            }
+        </style>
+        <input type="text" class="form-control" name="x" placeholder="Search term...">
+        <!--<div class="input-group-btn search-panel" data-search="students">-->
+        <!--<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">-->
+        <!--<span class="search_by">Filter by</span> <span class="caret"></span>-->
+        <!--</button>-->
+        <!--<ul class="dropdown-menu" role="menu">-->
+        <!--<li><a data-search="students">students</a></li>-->
+        <!--<li><a data-search="teachers">teachers</a></li>-->
+        <!--<li><a data-search="rooms">rooms</a></li>-->
+        <!--<li class="divider"></li>-->
+        <!--<li><a data-search="all">all</a></li>-->
+        <!--</ul>-->
+        <!--</div>-->
+        <select name="all_category" id="all_category">
+
+            <option value="0">All Category</option>
+            <option value="1">      Saab</option>
+            <option value="2">Opel</option>
+            <option value="3">Audi</option>
+        </select>
+
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button"><i class="fa fa-search"></i></button>
+                </span>
+    </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<Script>
+    /**
+     * Created by USER on 10-Dec-20.
+     */
+    $(document).ready(function() {
+
+        $(window).resize(function(){
+            if ($(window).width() >= 980){
+
+                $(".navbar .dropdown-toggle").hover(function () {
+                    $(this).parent().toggleClass("show");
+                    $(this).parent().find(".dropdown-menu").toggleClass("show");
+                });
+
+                $( ".navbar .dropdown-menu" ).mouseleave(function() {
+                    $(this).removeClass("show");
+                });
+
+            }
+        });
+
+
+
+    });
+
+
+
+
+
+
+
+
+
+    $(document).ready(function(e){
+        "use strict";
+        $('.search-panel').each( function() {
+            var to = $(this).data('search').toString();
+            var text = $(this).find('[data-search="' + to + '"]').html();
+            $(this).find('button span.search_by').html(text);
+        });
+
+        $('.search-panel li a').on('click', function(e){
+            var sp = $(this).closest('.search-panel');
+            var to = $(this).html();
+            var text = $(this).html();
+            sp.data('search', to);
+            console.log(sp.find('.search_by'));
+            sp.find('button span.search_by').html(text);
+        });
+    });
+
+
+
+
+
+
+</Script>
+
+<!-- jQuery and Bootstrap and popper and elevate zoom and owl carousel -->
+<script src="assets/plugin/js/jquery.min.js"></script>
+<script src="assets/plugin/js/bootstrap.min.js"></script>
+<script src="assets/plugin/js/popper.min.js"></script>
+<script src="assets/plugin/js/elevatezoom.min.js"></script>
+<script src="assets/plugin/js/owl.carousel.min.js"></script>
+
+
+
+<!--Custom jQuery -->
+<script src="assets/plugin/js/custom.js"></script>
+
+
+</body>
+</html>
