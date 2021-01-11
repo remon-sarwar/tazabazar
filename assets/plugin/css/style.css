@@ -2094,15 +2094,7 @@ cursor: pointer;
 .wrap-login-item .form-item.register-form{
     position: relative;
 }
-.wrap-login-item .form-item.register-form::before{
-    content: '';
-    width: 1px;
-    background: #e6e6e6;
-    position: absolute;
-    top: 10px;
-    left: -63px;
-    bottom: 0;
-}
+
 .wrap-login-item .form-item fieldset{
     /*display: block;*/
     float: left;
@@ -2136,6 +2128,14 @@ cursor: pointer;
     left: 0;
     background: #e6e6e6;
 }
+
+.form-input label::after{
+    content: '*';
+    color: red;
+
+}
+
+
 .wrap-login-item .form-item input[type="text"],
 .wrap-login-item .form-item input[type="password"],
 .wrap-login-item .form-item input[type="email"]{
