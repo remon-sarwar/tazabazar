@@ -260,3 +260,16 @@ function myFunction() {
 
 
 
+
+//
+///*<script>*/
+//function myFunction() {
+//    var x = document.getElementById("log-for");
+//    if (x.className === "log-for") {
+//        x.className += " responsive";
+//    } else {
+//        x.className = "log-for";
+//    }
+//}
+///*</script>*/
+

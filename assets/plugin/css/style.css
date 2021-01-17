@@ -94,7 +94,7 @@ section{
 --------------------------*/
 
 .mid-bar{
-    padding-top: 16px;
+    padding-top: 10px;
 }
 
 .logo img{
@@ -162,7 +162,69 @@ section{
 }
 
 
-    /** Mid bar end**/
+
+
+
+
+
+
+
+
+
+
+
+.log-for li{
+    float:left;
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+.log-for .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .log-for div:not(:last-child) {display: none;}
+    .log-for div.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .log-for.responsive {position: relative;}
+    .log-for.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .log-for.responsive div {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
+
+
+
+#top-right-phon li{
+    float: right;
+    list-style: none;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+}
+
+#top-right-phon li a{
+    padding-right: 10px;
+
+}
+#top-right-phon li a:hover{
+    font-size: 16px;
+}
+/** Mid bar end**/
 
 
 
@@ -203,6 +265,9 @@ section{
     margin-left:16%;
     padding: 0px;
 }
+
+
+
 /** Side nav bar ***/
 
 
@@ -371,9 +436,11 @@ section{
     list-style: none;
     font-size: 17px;
     padding: 5px;
-    font: bold;
     border-bottom: 1px solid #adb5bd;
 
+}
+.nav-inear span{
+    font-weight: bold;
 }
 .nav-inear::after{
     content: "\f054";
@@ -1137,6 +1204,7 @@ table tr th, table tr th a{
 
 .col_white_amrc {
     color:black;
+    font-weight: bold;
 }
 
 footer {
@@ -1150,6 +1218,7 @@ footer {
 .pt2 {
     padding-top:40px;
     margin-bottom:20px;
+    font-weight: bolder;
 }
 footer p {
     font-size:16px;
@@ -1159,6 +1228,11 @@ footer p {
 }
 .mb10 {
     padding-bottom:15px;
+    font-family: 'Roboto', sans-serif;
+}
+.mb9{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify
 }
 .footer_ul_amrc {
     margin:0px ;
@@ -1171,10 +1245,12 @@ footer p {
 }
 .footer_ul_amrc li a{
     color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 .footer_ul_amrc li a:hover{
     color:black;
-    font-size: 15px;
+    font-size: 17px;
     text-decoration:none;
 }
 .fleft {

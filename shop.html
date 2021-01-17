@@ -36,11 +36,49 @@
     <!-- top bar top star-->
     <section class="top_bar m-0 p-0">
         <div class="container-fluid naver-top">
-            <ul id="left">
-                <li><i class="fa fa-phone"></i><a href="tel:(+88) 01533418617"> +880-15-3341-8617 </a></li>
-                <li> <i class="fa fa fa-envelope"></i><a href="mailto:support@tazabazar.com">  support@tazabazar.com</a></li>
+            <style>
+                .top-icon{
+                    padding: 10px;
+                }
+                .naver-top .top-icon li{
+                    padding-top: 0px;
+                    float: left; list-style: none;
 
+                    margin-left: 10px;
+
+                }
+
+                .top-icon a{
+                    color: white;
+                    padding-left: 5px;
+
+                }
+                .top-icon li{
+                    width: 25px;
+                    border: 1px solid white;
+                    border-radius:50%;
+                }
+                .top-icon li:hover{
+                    background-color: whitesmoke;
+                    color: black;
+                }
+                .top-icon li a:hover{
+                    color: black;
+                }
+
+            </style>
+            <ul class="top-icon">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <!--social_footer_ul ends here-->
             </ul>
+            <!--<ul id="left">-->
+            <!--<li><i class="fas fa-phone-alt"></i><a href="tel:(+88) 01533418617"> +880-15-3341-8617 </a></li>-->
+            <!--<li> <i class="fa fa fa-envelope"></i><a href="mailto:support@tazabazar.com">  support@tazabazar.com</a></li>-->
+
+            <!--</ul>-->
 
             <ul id="right">
                 <li><a href="#">About</a></li>
@@ -56,10 +94,12 @@
 
 
     <!-- nav bar mid/bottom  start-->
-    <section id="re" class="navbar-r mid-bar  fixed-top p-0">
+    <section id="re" class="navbar-r fixed-top p-0">
+
+
         <!-- mid bar start -->
         <div class="container-fluid mid-bar">
-            <div class="row p-1">
+            <div class="row log-for p-1">
                 <!-- logo-->
                 <div class="col-sm-3">
                     <div class="logo_container">
@@ -73,7 +113,7 @@
 
                 <!-- Search -->
                 <div class="col-sm-6">
-                    <div class="container m-0 p-2">
+                    <div class="container m-0 p-1">
                         <div class="input-group">
                             <input type="text" class="form-control" name="x" placeholder="Search term...">
                             <select name="all_category" id="all_category">
@@ -84,16 +124,16 @@
                                 <option value="3">Cosmetics </option>
                             </select>
 
-                <span class="input-group-btn">
-                    <button class="btn " type="submit"><i class="fa fa-search"></i></button>
-                </span>
+            <span class="input-group-btn">
+            <button class="btn " type="submit"><i class="fa fa-search"></i></button>
+            </span>
                         </div>
 
                     </div>
                 </div>
 
                 <!--Cart/Account-->
-                <div class="col-sm-3 m-0 p-0">
+                <div class="col-sm-3 m-0 pl-1">
                     <div class="container-fluid p-0">
                         <div class="row">
                             <div class="col-sm-6">
@@ -132,16 +172,166 @@
                                     </div>
                                 </a>
                             </div>
+
                         </div>
 
+
                     </div>
+                </div>
+
+
+                <div class="col-sm-12">
+
+                    <ul id="top-right-phon">
+                        <li> <i class="fas fa-phone-alt"></i> <a href="tel:(+88) 01533418617"> +880-15-3341-8617 </a></li>
+                        <li> <i class="fa fa fa-envelope"></i> <a href="mailto:support@tazabazar.com">  support@tazabazar.com</a></li>
+                    </ul>
 
                 </div>
 
-            </div>
-        </div>
+                <div href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </div>
 
+            </div>
+
+
+
+        </div>
         <!-- mid bar end -->
+
+
+
+
+
+
+        <!--&lt;!&ndash; mid bar start &ndash;&gt;-->
+        <!--<div class="container-fluid mid-bar log-for">-->
+        <!--<div class="row p-1">-->
+        <!--&lt;!&ndash; logo&ndash;&gt;-->
+        <!--<div class="col-sm-3">-->
+        <!--<div class="logo_container">-->
+        <!--<div class="logo">-->
+        <!--<a href="index.html">-->
+        <!--<img src="assets/images/logo/tazabazar.png">-->
+        <!--</a>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash; Search &ndash;&gt;-->
+        <!--<div class="col-sm-6">-->
+        <!--<div class="container m-0 p-1">-->
+        <!--<div class="input-group">-->
+        <!--<input type="text" class="form-control" name="x" placeholder="Search term...">-->
+        <!--<select name="all_category" id="all_category">-->
+
+        <!--<option value="0">All Category</option>-->
+        <!--<option value="1">Groceries </option>-->
+        <!--<option value="2">Electronics </option>-->
+        <!--<option value="3">Cosmetics </option>-->
+        <!--</select>-->
+
+        <!--<span class="input-group-btn">-->
+        <!--<button class="btn " type="submit"><i class="fa fa-search"></i></button>-->
+        <!--</span>-->
+        <!--</div>-->
+
+        <!--</div>-->
+        <!--</div>-->
+
+        <!--&lt;!&ndash;Cart/Account&ndash;&gt;-->
+        <!--<div class="col-sm-3 m-0 pl-1">-->
+        <!--<div class="container-fluid p-0">-->
+        <!--<div class="row">-->
+        <!--<div class="col-sm-6">-->
+
+        <!--<a class="a" href="login.html">-->
+        <!--<div class="row">-->
+        <!--<div class="col-sm-4 m-0 p-1">-->
+        <!--<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">-->
+        <!--<path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z"/>-->
+        <!--</svg>-->
+
+        <!--<i class="bi bi-person"></i>-->
+        <!--</div>-->
+        <!--<div class="col-sm-8 m-0 pt-3 p-0">-->
+        <!--<h6 class="m-0">My Account</h6>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</a>-->
+
+        <!--</div>-->
+
+        <!--<div class="col-sm-6 p-0">-->
+        <!--<a class="a" href="cart.html">-->
+        <!--<div class="row">-->
+        <!--<div class="col-sm-4 m-0 p-1">-->
+        <!--&lt;!&ndash;<i class="fas fa-shopping-cart"></i>&ndash;&gt;-->
+        <!--<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">-->
+        <!--<path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>-->
+        <!--</svg>-->
+        <!--<i class="bi bi-cart3"></i>-->
+        <!--</div>-->
+        <!--<div class="col-sm-8 m-0 p-0">-->
+        <!--<h6 class="m-0">My cart</h6>-->
+        <!--<p class="m-0">Item - <samp style="color: #00816A">0</samp></p>-->
+        <!--</div>-->
+        <!--</div>-->
+        <!--</a>-->
+        <!--</div>-->
+
+        <!--</div>-->
+
+
+        <!--</div>-->
+        <!--</div>-->
+
+
+
+        <!--<div class="col-sm-12">-->
+
+        <!--<style>-->
+        <!--#top-right-phon li{-->
+        <!--float: right;-->
+        <!--list-style: none;-->
+        <!--font-size: 14px;-->
+        <!--margin: 0px;-->
+        <!--padding: 0px 0px 5px 0px;-->
+        <!--}-->
+
+        <!--#top-right-phon li a{-->
+        <!--padding-right: 10px;-->
+
+        <!--}-->
+        <!--#top-right-phon li a:hover{-->
+        <!--font-size: 16px;-->
+        <!--}-->
+
+        <!--</style>-->
+
+        <!--<ul id="top-right-phon">-->
+        <!--<li> <i class="fas fa-phone-alt"></i> <a href="tel:(+88) 01533418617"> +880-15-3341-8617 </a></li>-->
+        <!--<li> <i class="fa fa fa-envelope"></i> <a href="mailto:support@tazabazar.com">  support@tazabazar.com</a></li>-->
+
+        <!--</ul>-->
+
+
+
+        <!--</div>-->
+
+
+        <!--</div>-->
+
+
+
+        <!--</div>-->
+
+
+        <!--&lt;!&ndash; mid bar end &ndash;&gt;-->
+
+
+
 
 
 
@@ -2744,146 +2934,142 @@
 
 
 
-
-
 <!-- Footer start -->
+ <section class="pb-0">
+                <div class=" wrap-footer-content">
+                    <div class="wrap-function-info">
+                        <div class="container">
+                            <ul>
+                                <li class="fc-info-item">
+                                    <i class="fa fa-truck" aria-hidden="true"></i>
+                                    <div class="wrap-left-info">
+                                        <h4 class="fc-name">Free Shipping</h4>
+                                        <p class="fc-desc">Free On Oder Over $99</p>
+                                    </div>
 
-<section class="pb-0">
-    <div class=" wrap-footer-content">
-        <div class="wrap-function-info">
-            <div class="container">
-                <ul>
-                    <li class="fc-info-item">
-                        <i class="fa fa-truck" aria-hidden="true"></i>
-                        <div class="wrap-left-info">
-                            <h4 class="fc-name">Free Shipping</h4>
-                            <p class="fc-desc">Free On Oder Over $99</p>
+                                </li>
+                                <li class="fc-info-item">
+                                    <i class="fa fa-recycle" aria-hidden="true"></i>
+                                    <div class="wrap-left-info">
+                                        <h4 class="fc-name">Guarantee</h4>
+                                        <p class="fc-desc">30 Days Money Back</p>
+                                    </div>
+
+                                </li>
+                                <li class="fc-info-item">
+                                    <i class="fa fa-credit-card" aria-hidden="true"></i>
+                                    <div class="wrap-left-info">
+                                        <h4 class="fc-name">Safe Payment</h4>
+                                        <p class="fc-desc">your online payment</p>
+                                    </div>
+
+                                </li>
+                                <li class="fc-info-item">
+                                    <i class="fa fa-life-ring" aria-hidden="true"></i>
+                                    <div class="wrap-left-info">
+                                        <h4 class="fc-name">Online Suport</h4>
+                                        <p class="fc-desc"> Support 24/7</p>
+                                    </div>
+
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+ <footer class="footer">
+
+                <div class="container bottom_border">
+                    <div class="row">
+                        <div class=" col-sm-4 col-md  col-12 col mt-3">
+                            <a href="index.html"><img src="assets/images/logo/tazabazar.png" width=""></a>
+
+                            <p class="mb9 mt-3 p-0">
+                                We are always offering a completely
+                                hassle-free shopping experience through
+                                secure and trusted gateways. Tazabazar.com
+                                every time offer you, easy and reliable
+                                shopping with all your most favorite brands.
+
+                            </p>
+
                         </div>
 
-                    </li>
-                    <li class="fc-info-item">
-                        <i class="fa fa-recycle" aria-hidden="true"></i>
-                        <div class="wrap-left-info">
-                            <h4 class="fc-name">Guarantee</h4>
-                            <p class="fc-desc">30 Days Money Back</p>
+                        <div class=" col-sm-4 col-md  col-6 col">
+                            <h5 class="headin5_amrc col_white_amrc pt2">Account</h5>
+                            <!--headin5_amrc-->
+                            <ul class="footer_ul_amrc">
+                                <li><a href="#">MY Account</a></li>
+                                <li><a href="#">Order History</a></li>
+                                <li><a href="#">Wish List</a></li>
+                            </ul>
+                            <!--footer_ul_amrc ends here-->
+                        </div>
+                        <div class=" col-sm-4 col-md  col-6 col">
+                            <h5 class="headin5_amrc col_white_amrc pt2">Sub Menu</h5>
+                            <!--headin5_amrc-->
+                            <ul class="footer_ul_amrc">
+                                <li><a href="about.html">About</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#"> Our blog</a></li>
+                                <li><a href="#">Services</a></li>
+                            </ul>
+                            <!--footer_ul_amrc ends here-->
+                        </div>
+                        <div class=" col-sm-4 col-md  col-6 col">
+                            <h5 class="headin5_amrc col_white_amrc pt2">Customer Care</h5>
+                            <!--headin5_amrc-->
+                            <ul class="footer_ul_amrc">
+                                <li><a href="#">Privacy Policy</a></li>
+                                <li><a href="#">Terms & Conditions</a></li>
+                                <li><a href="#">Help Center</a></li>
+                                <li><a href="#">How to Buy</a></li>
+                                <li><a href="#">Returns & Refunds</a></li>
+                                <li><a href="#"></a></li>
+                            </ul>
+                            <!--footer_ul_amrc ends here-->
+                        </div>
+                        <div class="col-sm-3">
+                            <h5 class="headin5_amrc col_white_amrc pt2">Contact Us</h5>
+                            <!--headin5_amrc-->
+                            <p class="mb10">House no 951, Road no 14, Avenue no 02,  Mirpur DOHS, Mirpur-12, Dhaka-1216, Bangladesh </p>
+                            <p><i class="fas fa-phone-alt"></i> <a href="tel:(+88) 01533418617"> +880-15-3341-8617  </a></p>
+                            <p><i class="fa fa fa-envelope"></i><a href="mailto:support@tazabazar.com"> support@tazabazar.com</a></p>
                         </div>
 
-                    </li>
-                    <li class="fc-info-item">
-                        <i class="fa fa-credit-card" aria-hidden="true"></i>
-                        <div class="wrap-left-info">
-                            <h4 class="fc-name">Safe Payment</h4>
-                            <p class="fc-desc">your online payment</p>
+                    </div>
+                </div>
+
+
+                <div class="container">
+                    <di class="row">
+                        <div class="col-sm-5">
+                            <ul class="social_footer_ul">
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <!--social_footer_ul ends here-->
+                            </ul>
                         </div>
 
-                    </li>
-                    <li class="fc-info-item">
-                        <i class="fa fa-life-ring" aria-hidden="true"></i>
-                        <div class="wrap-left-info">
-                            <h4 class="fc-name">Online Suport</h4>
-                            <p class="fc-desc"> Support 24/7</p>
+                        <div class="col-sm-7 mt-3">
+                            <img src="assets/images/logo/visa-master-card-bkash-nexus-logo.png" width="100%" height="100%" style="float: right" >
                         </div>
 
-                    </li>
-                </ul>
-            </div>
-        </div>
+                    </di>
+                </div>
+                <br>
+                <div class="container-fluid p-0" style="background-color: #02382a">
+                    <div class="container pt-3 pb-3 pl-0 pr-0">
+                        <p class="text-center" style="color: white">Copyright @2020 | <a href="https://tazabazar.com/" style="color: #ad3;">TazaBazar</a></p>
+                    </div>
 
-    </div>
-</section>
+                </div>
 
-
-<footer class="footer">
-
-    <div class="container bottom_border">
-        <div class="row">
-            <div class=" col-sm-4 col-md  col-12 col mt-3">
-                <a href="index.html"><img src="assets/images/logo/tazabazar.png" width=""></a>
-
-                <p class="mt-3 p-0">
-                    We are always offering a completely
-                    hassle-free shopping experience through
-                    secure and trusted gateways. Tazabazar.com
-                    every time offer you, easy and reliable
-                    shopping with all your most favorite brands.
-
-                </p>
-
-            </div>
-
-            <div class=" col-sm-4 col-md  col-6 col">
-                <h5 class="headin5_amrc col_white_amrc pt2">Account</h5>
-                <!--headin5_amrc-->
-                <ul class="footer_ul_amrc">
-                    <li><a href="#">MY Account</a></li>
-                    <li><a href="#">Order History</a></li>
-                    <li><a href="#">Wish List</a></li>
-                </ul>
-                <!--footer_ul_amrc ends here-->
-            </div>
-            <div class=" col-sm-4 col-md  col-6 col">
-                <h5 class="headin5_amrc col_white_amrc pt2">Menu</h5>
-                <!--headin5_amrc-->
-                <ul class="footer_ul_amrc">
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                    <li><a href="#"> Our blog</a></li>
-                    <li><a href="#">Services</a></li>
-                </ul>
-                <!--footer_ul_amrc ends here-->
-            </div>
-            <div class=" col-sm-4 col-md  col-6 col">
-                <h5 class="headin5_amrc col_white_amrc pt2">Customer Care</h5>
-                <!--headin5_amrc-->
-                <ul class="footer_ul_amrc">
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms & Conditions</a></li>
-                    <li><a href="#">Help Center</a></li>
-                    <li><a href="#">How to Buy</a></li>
-                    <li><a href="#">Returns & Refunds</a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-                <!--footer_ul_amrc ends here-->
-            </div>
-            <div class="col-sm-3">
-                <h5 class="headin5_amrc col_white_amrc pt2">Contact Us</h5>
-                <!--headin5_amrc-->
-                <p class="mb10">House no 951, Road no 14, Avenue no 02,  Mirpur DOHS, Mirpur-12, Dhaka-1216, Bangladesh </p>
-                <p><i class="fa fa-phone"></i> <a href="tel:(+88) 01533418617"> +880-15-3341-8617  </a></p>
-                <p><i class="fa fa fa-envelope"></i><a href="mailto:support@tazabazar.com"> support@tazabazar.com</a></p>
-            </div>
-
-        </div>
-    </div>
-
-
-    <div class="container">
-        <di class="row">
-            <div class="col-sm-5">
-                <ul class="social_footer_ul">
-                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <!--social_footer_ul ends here-->
-                </ul>
-            </div>
-
-            <div class="col-sm-7 mt-3">
-                <img src="assets/images/logo/visa-master-card-bkash-nexus-logo.png" width="100%" height="100%" style="float: right" >
-            </div>
-
-        </di>
-    </div>
-    <br>
-    <div class="container-fluid p-0" style="background-color: #02382a">
-        <div class="container pt-3 pb-3 pl-0 pr-0">
-            <p class="text-center" style="color: white">Copyright @2020 | <a href="https://tazabazar.com/" style="color: #ad3;">TazaBazar</a></p>
-        </div>
-
-    </div>
-
-</footer>
+            </footer>
 <!-- Footer End -->
 
 
